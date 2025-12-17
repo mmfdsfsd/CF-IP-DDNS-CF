@@ -10,11 +10,11 @@ MAX_IPS_PER_DOMAIN → 每个子域名挂几个 IP
 
 执行：
 
-<code>chmod +x cf-ip-update-multi-a.sh</code><br>
-<code>./cf-ip-update-multi-a.sh</code>
+<code>chmod +x cf-ip-update-distribute.sh</code><br>
+<code>./cf-ip-update-distribute.sh</code>
 
 
 可加入 cron 自动更新：
 
-<code>*/10 * * * * /root/cf-ip-update-multi-a.sh >> /var/log/cf-ip-update.log 2>&1</code>
+<code>*/10 * * * * /root/cf-ip-update-distribute.sh >> /var/log/cf-ip-update.log 2>&1</code>
 
